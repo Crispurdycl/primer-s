@@ -15,7 +15,7 @@ apellido2 = "Lagos"
 edad = 18
 
 #Se imprime el valor de la variable con un mensaje
-print("Hola, soy ", nombre, nombre2, apellido, apellido2, "y tengo", edad, "años")
+print("Hola, soy", nombre, nombre2, apellido, apellido2, "y tengo", edad, "años")
 print("Hola, soy" + " " + nombre + " " + nombre2 + " " + apellido + " " + apellido2 + " " + "y tengo" + " " + str(edad) + " " + "años")
 
 #Actualizacion de variables
