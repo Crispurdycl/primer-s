@@ -24,5 +24,5 @@ nombre = "Matias"
 apellido = "Guzman"
 print("Hola mi nuevo nombre es", nombre, apellido)
 
-nobre = input("¿Cual es tu nombre?:\n ")
+nombre = input("¿Cual es tu nombre?:\n ")
 print("tu nombre es:", nombre)
