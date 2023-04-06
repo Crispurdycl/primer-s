@@ -25,4 +25,4 @@ apellido = "Guzman"
 print("Hola mi nuevo nombre es", nombre, apellido)
 
 nombre = input("¿Cual es tu nombre?:\n ")
-print("tu nombre es:", nombre)
+print("tu nombre es:", nombre, "y tiene", len(nombre), "caracteres")
