@@ -162,3 +162,5 @@ conjunto_marcas.remove("Puma")
 conjunto_numeros.remove(190)
 print(conjunto_marcas)
 print(conjunto_numeros)
+
+print("Los conjuntos marcas y numeros son:", conjunto_marcas, conjunto_numeros, '\n')
