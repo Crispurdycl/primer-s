@@ -6,7 +6,7 @@ estatura = 1.65
 peso = 80
 complejo = 1 + 4j
 print("Impresion del numero complejo: ", complejo, '\n')
-
+print(f"Tu peso es de: {peso}\n")
 """-------------------------------------------------------------------------------------------------------------------"""
 
 #Datos NUMERICOS ENTEROS
@@ -16,6 +16,7 @@ imc = peso / estatura ** 2
 print("mi imc es de:",imc,'\n')
 print("mi imc es de: {0:.2f}".format(imc),'\n')
 print("mi imc es de: {0:.5f}".format(imc),'\n')
+print(f"mi imc es de: {imc:.8f}"'\n') #Aqui formateamos el valor de la variable imc a 8 decimales
 
 """-------------------------------------------------------------------------------------------------------------------"""
 
@@ -24,32 +25,63 @@ asignatura = "Programacion"
 carrera = "Ingenieria civil en informatica"
 print("La asignatura de", asignatura, "es parte de la carrera de", carrera, '\n')
 print(f"La asignatura de {asignatura} es parte de la carrera de {carrera} \n")
+print(f"La asignatura de {asignatura} tiene {len(asignatura)} letras \n")
+print(f"La carrera de {carrera} tiene {len(carrera)} letras \n") #En este caso se cuenta los espacios como letras
+print(f"La asignatura de {asignatura} tiene {len(asignatura)} letras y la carrera de {carrera} tiene {len(carrera)} letras \n") #en este caso se cuenta los espacios como letras tambien
+
 """-------------------------------------------------------------------------------------------------------------------"""
 
 #03-DATOS DE TIPO BOOLEANO
-ampolleta = False
-interruptor = True
+ampolleta = False #False = 0
+interruptor = True #True = 1
+print("El valor de la variable ampolleta es:", ampolleta, '\n')
+print("El valor de la variable interruptor es:", interruptor, '\n')
+print("El valor de la variable ampolleta es:", int(ampolleta), '\n')
+print("El valor de la variable interruptor es:", int(interruptor), '\n')
+int
+
 
 """-------------------------------------------------------------------------------------------------------------------"""
 
 #con type() se puede saber el tipo de dato de una variable
-print(type(ampolleta),'\n')
+print("Ampolleta es de tipo: ",type(ampolleta),'\n')
+print("Su imc es de tipo: ",type(imc),'\n')
+
+#Ejercicios de booleanos, podemos transformar un numero a booleano como un string, pero no podemos transformar un booleano a un numero
+
+print(bool(0))
+print(bool(""))
+print(bool(None))
+print(bool("True"))
+print(bool(1))
+print(bool("\n"))
 
 """-------------------------------------------------------------------------------------------------------------------"""
 
 #04-Datos tipo array (Objetos tipo de colección)
+
+#Aqui declaramos las variables de tipo array(lista)
 estudiantes =  ["Cristian", "Franco", "Matias", "Boris"]
 num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 deporte = ["Futbol", "Basketball", "Tenis", "Voleyball"]
 ciudades = ["Santiago", "Concepcion", "Valparaiso", "Talca", "Temuco", "Puerto Montt", "Iquique", "Antofagasta", "Arica", "Copiapo", "Santiago"]
 regiones = ["Los Rios", "Los Lagos", "Valparaiso", True, "str(2023)"]
 lenguaje = ["Python"]
+
+#Aqui imprimimos los valores de las variables
 print(estudiantes, '\n')
 print(num, '\n')
 print(deporte, '\n')
 print(ciudades, '\n')
 print(regiones, '\n')
 print(lenguaje, '\n')
+
+#Aqui imprimimos el tipo de dato de cada variable que seran de tipo array(lista)
+print(type(num), '\n')
+print(type(deporte), '\n')
+print(type(ciudades), '\n')
+print(type(regiones), '\n')
+print(type(lenguaje), '\n')
 
 data = ['estudiantes' , 'num', 'deporte', 'ciudades', 'regiones']
 print("la cantidad de elementos de la variable data es de:", len(data))
@@ -79,6 +111,8 @@ print("El arreglo de ciudades es:", ciudades, '\n')
 
 #lista de datos mixtos
 datos = ["Cristian", 18, 1.65, True]
+print(len(datos), '\n')
+print(datos.count(1))
 
 nombre, edad, estatura, estudiante = datos
 print("Nombre:", nombre, '\n')
@@ -113,7 +147,7 @@ print(list(range(6)), '\n')
 grupo1 = ("Cristian", 100, "Franco", 200, "Matias", 300, "Boris")
 print(type(grupo1))
 
-grupo2 = ("Franchesca", 3, "Laura", 12, "Lisa", 15, "Lorena")
+grupo2 = ("Franchesca", 18, "Laura", 21, "Lisa", 25, "Lorena")
 print(type(grupo2))
 
 print(grupo1[0])

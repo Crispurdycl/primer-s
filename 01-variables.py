@@ -33,3 +33,9 @@ print("tu nombre es:", nombre, "y tiene", len(nombre), "caracteres")
 #Variables en una sola linea (separadas por coma)
 Ciudad, region, pais, año = "Santiago", "Metropolitana", "Chile", 2023
 print("yo naci en", Ciudad, "de la region", region, "del pais", pais, "el año", str(2023))
+
+
+#crearemos el print de la siguiente forma
+#Hola, soy Cristian Andres Cárdenas Lagos y tengo 18 años
+
+print(f"Hola, soy {nombre} {nombre2} {apellido} {apellido2} y tengo {edad} años")
