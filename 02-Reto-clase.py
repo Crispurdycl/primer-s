@@ -15,6 +15,7 @@ NotasLabs = NotaLab1*0.3 + NotaLab2*0.7
 
 #imprimimos el diccionario y el promedio de notas
 
-print(type(ICINF))
 print(ICINF, "\n")
-print(f" su promedio de notas es {NotasLabs:.1f}".format(NotasLabs))
+print(f"su promedio de notas es {NotasLabs:.1f}".format(NotasLabs))
+input(print("Presione cualquier tecla para salir"))
+#fin del programa
