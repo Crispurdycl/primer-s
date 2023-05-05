@@ -20,16 +20,82 @@ while True:
     if eleccion in ("1", "2", "3", "4"):
         if eleccion == "1":
             print(f"El indice de calidad del aire de Santiago es: {ICA[0]}")
-            break
+            if (ICA[0] > 0 and ICA[0] < 50):
+                print("La calidad del aire es buena")
+                break
+            elif (ICA[0] > 50 and ICA[0] <=100):
+                print("La calidad del aire es moderada")
+                break
+            elif (ICA[0] > 100 and ICA[0] <=150):
+                print("La calidad del aire es Dañina a la salud para grupos sensibles")
+                break
+            elif (ICA[0] > 150 and ICA[0] <=200):
+                print("La calidad del aire es Dañina a la salud")
+                break
+            elif (ICA[0] > 200 and ICA[0] <=300):
+                print("La calidad del aire es Muy dañina a la salud")
+                break
+            elif (ICA[0] > 300):
+                print("La calidad del aire es peligrosa")
+                break       
         elif eleccion == "2":
             print(f"El indice de calidad del aire de Temuco es: {ICA[1]}")
-            break
+            if (ICA[1] > 0 and ICA[1] < 50):
+                print("La calidad del aire es buena")
+                break
+            elif (ICA[1] > 50 and ICA[1] <=100):
+                print("La calidad del aire es moderada")
+                break
+            elif (ICA[1] > 100 and ICA[1] <=150):
+                print("La calidad del aire es Dañina a la salud para grupos sensibles")
+                break
+            elif (ICA[1] > 150 and ICA[1] <=200):
+                print("La calidad del aire es Dañina a la salud")
+                break
+            elif (ICA[1] > 200 and ICA[1] <=300):
+                print("La calidad del aire es Muy dañina a la salud")
+                break
+            elif (ICA[1] > 300):
+                print("La calidad del aire es peligrosa")
+                break
         elif eleccion == "3":
             print(f"El indice de calidad del aire de Osorno es: {ICA[2]}")
-            break
+            if (ICA[2] > 0 and ICA[2] < 50):
+                print("La calidad del aire es buena")
+                break
+            elif (ICA[2] > 50 and ICA[2] <=100):
+                print("La calidad del aire es moderada")
+                break
+            elif (ICA[2] > 100 and ICA[2] <=150):
+                print("La calidad del aire es Dañina a la salud para grupos sensibles")
+                break
+            elif (ICA[2] > 150 and ICA[2] <=200):
+                print("La calidad del aire es Dañina a la salud")
+                break
+            elif (ICA[2] > 200 and ICA[2] <=300):
+                print("La calidad del aire es Muy dañina a la salud")
+                break
+            elif (ICA[2] > 300):
+                print("La calidad del aire es peligrosa")
+                break
         elif eleccion == "4":
-            print(f"El indice de calidad del aire de Punta Arenas es: {ICA[3]}")
-            break
-    else:
-        print("Opcion no valida")
+            print(f"El indice de calidad del aire de Punta Arenas es: {ICA[3]}") 
+            if (ICA[3] > 0 and ICA[3] <= 50):
+                print("La calidad del aire es buena")
+                break
+            elif (ICA[3] > 50 and ICA[3] <=100):
+                print("La calidad del aire es moderada")
+                break
+            elif (ICA[3] > 100 and ICA[3] <=150):
+                print("La calidad del aire es Dañina a la salud para grupos sensibles")
+                break
+            elif (ICA[3] > 150 and ICA[3] <=200):
+                print("La calidad del aire es Dañina a la salud")
+                break
+            elif (ICA[3] > 200 and ICA[3] <=300):
+                print("La calidad del aire es Muy dañina a la salud")
+                break
+            elif (ICA[3] > 300):
+                print("La calidad del aire es peligrosa")
+                break
         break
