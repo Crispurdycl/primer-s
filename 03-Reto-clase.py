@@ -20,7 +20,7 @@ while True:
     if eleccion in ("1", "2", "3", "4"):
         if eleccion == "1":
             print(f"El indice de calidad del aire de Santiago es: {ICA[0]}")
-            if (ICA[0] > 0 and ICA[0] < 50):
+            if (ICA[0] > 0 and ICA[0] <= 50):
                 print("La calidad del aire es buena")
                 break
             elif (ICA[0] > 50 and ICA[0] <=100):
@@ -40,7 +40,7 @@ while True:
                 break       
         elif eleccion == "2":
             print(f"El indice de calidad del aire de Temuco es: {ICA[1]}")
-            if (ICA[1] > 0 and ICA[1] < 50):
+            if (ICA[1] > 0 and ICA[1] <= 50):
                 print("La calidad del aire es buena")
                 break
             elif (ICA[1] > 50 and ICA[1] <=100):
@@ -60,7 +60,7 @@ while True:
                 break
         elif eleccion == "3":
             print(f"El indice de calidad del aire de Osorno es: {ICA[2]}")
-            if (ICA[2] > 0 and ICA[2] < 50):
+            if (ICA[2] > 0 and ICA[2] <= 50):
                 print("La calidad del aire es buena")
                 break
             elif (ICA[2] > 50 and ICA[2] <=100):
@@ -98,4 +98,5 @@ while True:
             elif (ICA[3] > 300):
                 print("La calidad del aire es peligrosa")
                 break
-        break
+    else:
+        print("Ingrese una opcion valida")
