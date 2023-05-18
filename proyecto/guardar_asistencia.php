@@ -1,9 +1,9 @@
 <?php
 // Datos de conexión a la base de datos
-$servername = "nombre_servidor";
-$username = "nombre_usuario";
-$password = "contraseña";
-$dbname = "nombre_base_de_datos";
+$servername = "proyecto_integrador";
+$username = "root";
+$password = "";
+$dbname = "registrar asistencia";
 
 // Obtener los datos del formulario
 $nombre = $_POST['nombre'];
