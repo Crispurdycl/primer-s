@@ -7,8 +7,10 @@ $dbname = "nombre_base_de_datos";
 
 // Obtener los datos del formulario
 $nombre = $_POST['nombre'];
-$rut = $_POST['rut'];
+$rut = $_POST['run'];
 $asignatura = $_POST['asignatura'];
+$añoingreso = $_POST['año ingreso'];
+$sede = $_POST['sede']
 
 // Crear la conexión a la base de datos
 $conn = new mysqli($servername, $username, $password, $dbname);

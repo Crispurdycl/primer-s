@@ -4,18 +4,24 @@
     <title>Registro de Asistencia</title>
 </head>
 <body>
-    <h1>Registro de Asistencia de Estudiantes Universitarios</h1>
+    <h1>Registro de Asistencia de Estudiantes Universidad de Los Lagos</h1>
     
     <form method="POST" action="guardar_asistencia.php">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br><br>
         
-        <label for="rut">RUT:</label>
-        <input type="text" id="rut" name="rut" required><br><br>
+        <label for="run">RUN:</label>
+        <input type="text" id="run" name="run" required><br><br>
         
-        <label for="asignatura">Asignatura:</label>
+        <label for="asignatura">Carrera:</label>
         <input type="text" id="asignatura" name="asignatura" required><br><br>
+
+        <label for="año ingreso">Año Ingreso:</label>
+        <input type="text" id="año ingreso" name="año ingreso" required><br><br>
         
+        <label for="sede">Sede:</label>
+        <input type="text" id="sede" name="sede" required><br><br>
+
         <input type="submit" value="Registrar Asistencia">
     </form>
 </body>
