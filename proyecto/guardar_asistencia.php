@@ -21,7 +21,7 @@ if ($conn->connect_error) {
 }
 
 // Preparar y ejecutar la consulta SQL para insertar los datos en la tabla correspondiente
-$sql = "INSERT INTO asistencia (nombre, rut, asignatura) VALUES ('$nombre', '$rut', '$asignatura')";
+$sql = "INSERT INTO asistencia (nombre, rut, asignatura, añoingreso, sede) VALUES ('$nombre', '$rut', '$asignatura', '$añoingreso', '$sede')";
 
 if ($conn->query($sql) === TRUE) {
     echo "La asistencia se ha registrado correctamente.";
