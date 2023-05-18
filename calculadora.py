@@ -9,7 +9,7 @@ def Multiplicacion (a, b):
 def Division (a, b):
     return a / b
 def Potencia (a, b):
-    return aEb
+    return a ** b
 def Raiz (a):
     return a ** (1/2)
 
@@ -47,4 +47,4 @@ while True:
         elif eleccion == "6":
             num1=float(input("Por favor ingresa tu numero: "))
             print(f"La raiz cuadrada de {num1} es", Raiz (num1))
-            break
+        break

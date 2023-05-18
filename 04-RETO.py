@@ -12,7 +12,7 @@ print("----------==============[Bienvenido al programa de registro de pacientes]
 print("==================================================================================================")
 while True:
     name = input("¿Cuál es el nombre del primer paciente? ") 
-    if name == "" or name.isalpha() == False:
+    if name == "" or name.isnumeric() == True:
         print("El nombre no es valido")
     else:
         nm += (name,)
