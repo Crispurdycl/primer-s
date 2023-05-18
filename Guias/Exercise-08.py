@@ -7,7 +7,7 @@ verano = ["enero", "Enero", "Febrero", "febrero", "diciembre", "Diciembre"]
 otoño = ["Marzo", "marzo", "Abril", "abril", "Mayo", "mayo"]
 invierno = ["Junio", "junio", "Julio", "julio", "Agosto", "agosto"]
 primavera = ["Septiembre", "septiembre", "Octubre", "octubre", "Noviembre", "noviembre"]
-
+#siuu
 while True:
     mes = input("Ingrese un mes: ")
     if mes == "" or mes.isnumeric() == True:
