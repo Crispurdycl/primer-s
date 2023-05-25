@@ -9,4 +9,4 @@ for i in range(numero, numero*3, 2):
     impar += 2 
     print(impar-2)
 
-print(f"El cubo de {numero} es: {acum}")  
+print(f"El cubo de {numero} es: {acum}")
