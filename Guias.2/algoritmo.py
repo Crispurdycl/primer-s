@@ -1,14 +1,15 @@
 numero = int(input("Ingrese un numero: "))        
 impar = (numero*(numero-1))+1
 cum = 0
+lista = []
 
 for i in range(numero, numero*3, 2):
     cum += impar
     if i == (numero-1):
         break 
     impar += 2
-    print(impar-2, "+ ", end="" )
+    lista.append(impar-2)
 
-print("= ", cum , end="\n")
+print(lista, sep=" + ")
 
 print(f"El cubo de {numero} es: {cum}")

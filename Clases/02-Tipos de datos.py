@@ -6,7 +6,7 @@ estatura = 1.65
 peso = 80
 complejo = 1 + 4j
 print("Impresion del numero complejo: ", complejo, '\n')
-print(f"Tu peso es de: {peso}\n")
+print(f"Tu peso es de: {peso} kilogramos \n")
 """-------------------------------------------------------------------------------------------------------------------"""
 
 #Datos NUMERICOS ENTEROS
