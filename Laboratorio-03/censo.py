@@ -2,8 +2,8 @@
 
 Id_Region = [14,12]
 Region = ["Los Ríos", "Magallanes"]
-Habitantes = (18429, 1382291)
-Superficie = (404432, 166533)
+Habitantes = (404432, 166533)
+Superficie = (18429, 1382291)
 
 Problema = 18429 / 404432
 #sumamos todos los diccionarios
@@ -29,7 +29,7 @@ print("Aqui agregamos la capital de caga Region: ",diccionario,"\n")
 
 #agregamos otra clave con el nombre "Comunas" la cual sera una lista de 3 comunas de cada region como minimo
 
-Comunas = [["Río Bueno", "La Union", "Paillaco"], ["Cabo de hornos", "Porvenir", "Puerto Williams"]]
+Comunas = ["Río Bueno", "La Union", "Paillaco"], ["Cabo de hornos", "Porvenir", "Puerto Williams"]
 diccionario["Comunas"] = Comunas
 diccionario = dict(zip(Id_Region, zip(Region, Habitantes, Superficie, densidad, Capital, Comunas)))
 print("Aqui agregamos las comunas de cada Capital: ", diccionario, "\n")
