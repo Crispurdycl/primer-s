@@ -7,7 +7,7 @@ NotaLab2 = float(input("Ingrese nota del laboratorio 2: "))
 
 #asignamos nuestro diccionario
 
-ICINF = [ estudiante, carrera, NotaLab1, NotaLab2 ]
+ICINF = [estudiante, carrera, NotaLab1, NotaLab2 ]
 
 #calculamos el promedio de notas
 
@@ -16,6 +16,7 @@ NotasLabs = NotaLab1*0.3 + NotaLab2*0.7
 #imprimimos el diccionario y el promedio de notas
 
 print(ICINF, "\n")
+print(f"Hola {ICINF[0]} de la carrera {ICINF[1]}")
 print(f"su promedio de notas es {NotasLabs:.1f}".format(NotasLabs))
 input(print("Presione cualquier tecla para salir"))
 #fin del programa
